@@ -2,6 +2,7 @@ import json
 import os
 from tqdm import tqdm
 import numpy as np
+import re
 import random
 import sys
 import time
@@ -518,10 +519,9 @@ class StabilityEvaluator(Evaluator):
         # Prepare the scoring prompt
         scoring_template = f"""{prompt_pre}
 
-Question: {{question}}{{response}}
+Conversation: {{question}}{{response}}
 
 Please provide a single integer between 1 and 10 as your score, with no additional explanation.
-You must rate the response on a scale of 1 to 10 by strictly following this format: \"[[rating]]\", for example: \"Rating: [[5]]
 Score: """
 
         # Create dataset for batch processing
@@ -547,7 +547,8 @@ Score: """
             # Process the scores
             for score in batch_scores:
                 try:
-                    numeric_score = float(score.strip())
+                    numeric_score = float(re.search(r'\d+', score.strip()).group())
+                    # numeric_score = float(score.strip())
                     if 1 <= numeric_score <= 10:
                         scores.append(numeric_score)
                     else:

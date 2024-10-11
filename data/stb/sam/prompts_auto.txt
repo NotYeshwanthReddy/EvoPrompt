@@ -1,10 +1,10 @@
-give an example of input-output pairs that demonstrate an understanding of context.
-produce input-output pairs that demonstrate an understanding of the conversation. The input-output pairs demonstrate a clear understanding of the conversation, as each output reflects a conclusion or summarization of the conversation that was had.
-discuss a dream or a goal.
-discuss a dream.
-discuss a dream or aspiration.
-produce an input-output pair.
-produce input-output pairs demonstrating dialogue between two or more people. The input-output pairs produced demonstrate conversations between two or more people, each output summarizing the conversation.
-provide an input-output pair based on a given dialogue.
-create input-output pairs.
-create an input-output pair based on a dialogue between two people.
+Assess the AI assistant's response to the second user question, focusing on its precision and clarity. Consider whether the response answers the question directly and thoroughly, and evaluate its accuracy and usefulness in a concise manner.
+Please provide a holistic assessment of the AI assistant’s response to the second user question. Consider how well the response addresses the user’s intent, its overall coherence, and whether it demonstrates both technical accuracy and empathy. Offer a well-rounded critique.
+Evaluate the AI assistant's answer to the second user question by identifying any inaccuracies, vague statements, or areas where the response falls short of expectations. Highlight mistakes or omissions and suggest improvements.
+Critically assess the AI assistant’s answer to the second user question, giving particular attention to its depth, creativity, and originality. Determine if the response goes beyond the basics, providing an insightful and inventive solution to the user's request.
+Imagine you're a user who has just received the AI assistant's response to your second question. From the perspective of user satisfaction, evaluate whether the response is satisfying, practical, and complete. Would you find it helpful and accurate?
+Rate the AI assistant's answer to the second user question on a scale of 1 to 10 across the following dimensions: helpfulness, relevance, accuracy, depth, and creativity. Provide an explanation for each rating to justify your score.
+Judge the AI assistant's answer to the second user question with an emphasis on detecting factual or logical errors. Provide a detailed explanation of any inaccuracies you identify, and suggest corrections or improvements where necessary.
+Analyze the AI assistant's response to the second user question, focusing exclusively on its relevance to the user's query. Determine whether the assistant directly addresses the question and avoids tangential or unnecessary information.
+Evaluate the AI assistant's answer to the second user question by comparing it to an ideal response. Identify any gaps, missing information, or areas where the assistant could have been more thorough or accurate.
+Assess the AI assistant’s response to the second user question, with a specific focus on the timeliness of the information provided. Ensure the response is up-to-date and free of outdated or obsolete content.

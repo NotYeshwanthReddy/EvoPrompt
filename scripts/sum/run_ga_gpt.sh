@@ -18,9 +18,9 @@ python run.py \
     --seed $SEED \
     --dataset $dataset \
     --task stb \
-    --batch-size 10 \
+    --batch-size 25 \
     --prompt-num 0 \
-    --sample_num 10 \
+    --sample_num 25 \
     --language_model gpt \
     --budget $BUDGET \
     --popsize $POPSIZE \

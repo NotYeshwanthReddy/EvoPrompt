@@ -1,5 +1,6 @@
 import argparse
 import numpy as np
+import os
 from utils import cal_mean_std
 
 parser = argparse.ArgumentParser(description="src or tgt")
@@ -25,6 +26,8 @@ def cal_test_result_3seed(path, step):
 
 def cal_dev_result_3seed(path,step):
     for seed in [5, 10, 15]:
+        if not os.path.exists(f'{path}/seed{seed}/step{step}_pop.txt'):
+            os.mkdir(f'{path}/seed{seed}')
         with open(f'{path}/seed{seed}/step{step}_pop.txt') as f:
             line = f.readlines()[-2:]
             best_score = line[0].strip().split('best score: ')[-1]
